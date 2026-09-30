@@ -33,8 +33,7 @@ class LogWorker:
 
         try:
 
-            # Binary mode allows us to detect invalid UTF-8
-            # ourselves rather than silently replacing it.
+           
             with open(
                 file_path,
                 "rb",

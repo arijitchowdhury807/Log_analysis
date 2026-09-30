@@ -78,10 +78,10 @@ def print_result(result: dict) -> None:
             f"{top_offender}"
         )
 
-        print(
-            f"Error count       : "
-            f"{top_count}"
-        )
+        # print(
+        #     f"Error count       : "
+        #     f"{top_count}"
+        # )
 
     else:
 
@@ -251,13 +251,11 @@ def main():
         job_id = job["job_id"]
 
         print()
-        print(
-            f"Job created: {job_id}"
-        )
+        # print(
+        #     f"Job created: {job_id}"
+        # )
 
-        print(
-            "Waiting for analysis..."
-        )
+       
 
         result = wait_for_result(
             job_id

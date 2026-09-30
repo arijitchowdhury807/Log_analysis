@@ -39,8 +39,7 @@ class Settings:
         )
     )
 
-    # Maximum number of jobs allowed
-    # in PENDING/PROCESSING state.
+    
     MAX_ACTIVE_JOBS = int(
         os.getenv(
             "MAX_ACTIVE_JOBS",

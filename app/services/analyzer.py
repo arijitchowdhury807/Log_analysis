@@ -41,7 +41,7 @@ class LogAnalyzer:
 
         current_count = self.error_counts[parsed.service]
 
-        # O(1) top offender update.
+       
         if current_count > self.max_errors:
             self.max_errors = current_count
             self.top_offender = parsed.service
